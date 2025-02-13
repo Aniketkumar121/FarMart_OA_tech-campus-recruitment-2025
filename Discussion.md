@@ -1,4 +1,4 @@
-Solutions Considered :-
+# Solutions Considered :-
 We explored a couple of different ways to tackle this problem:
 Extracting the ZIP file first and then processing logs
 This approach would involve extracting all files from logs.zip into a temporary directory and filtering the logs from there.
@@ -12,14 +12,14 @@ Memory-efficient since we only keep relevant log lines instead of loading the en
 This was the best approach given the constraints!
 
 
-Final Solution Summary :-
+# Final Solution Summary :-
 We chose the second approach because it avoids unnecessary disk writes, optimizes memory usage, and directly processes logs inside the ZIP.
 The script reads each file from the ZIP, checks if it's a .log or .gz file, and then streams lines instead of extracting them.
 Only lines that start with the given data are written to the output file.
 Supports both plain .log files and compressed .gz logs dynamically.
 
 
-Steps to Run the Script :-
+# Steps to Run the Script :-
 Ensure you have Python installed.
 Run the python --version to confirm.
 Place your ZIP file in the correct directory:
