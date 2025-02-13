@@ -29,4 +29,4 @@
   - python extract_logs.py 2024-12-01
   
 - Find the filtered logs in the output/ directory:
-Example: output/output_2024-12-01.txt will contain all log entries from December 1, 2024.
+  - Example: output/output_2024-12-01.txt will contain all log entries from December 1, 2024.
