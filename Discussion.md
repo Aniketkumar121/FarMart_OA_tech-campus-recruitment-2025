@@ -25,8 +25,8 @@
 - Place your ZIP file in the correct directory:
 - logs.zip should be in large_logs/
 - Run the script with a specific date:
-  link
-  python extract_logs.py 2024-12-01
+  
+  - python extract_logs.py 2024-12-01
   
 - Find the filtered logs in the output/ directory:
 Example: output/output_2024-12-01.txt will contain all log entries from December 1, 2024.
